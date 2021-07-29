@@ -1,0 +1,32 @@
+.head-container{
+    background-color: #264653;
+    width: 100%;
+}
+.header-text{
+    padding: 155px;
+}
+.header-button{
+    background-color: #E76F51;
+    width: 144px;
+}
+.header-img{
+    width: 550px;
+}
+.feature-text p, .happy-text{
+    color: #E76F51;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+.bike-gray{
+    filter: grayscale(100%);
+}
+.user3-custom{
+    height: 150px;
+    width: 150px;
+}
+.checked {
+    color: orange;
+  }
+  .faq-img{
+      width: 60%;
+  }
