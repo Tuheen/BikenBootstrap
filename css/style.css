@@ -1,3 +1,9 @@
+/*---------
+ Custom CSS 
+ -------- */
+
+
+/* top header css */
 .head-container{
     background-color: #264653;
     width: 100%;
@@ -12,6 +18,11 @@
 .header-img{
     width: 550px;
 }
+.modal-custom{
+    color: royalblue;
+}
+
+/* feature area css  */
 .feature-text p, .happy-text{
     color: #E76F51;
     font-weight: 700;
@@ -23,9 +34,8 @@
 .bike-gray{
     filter: grayscale(100%);
 }
-.modal-custom{
-    color: royalblue;
-}
+
+/* review area css  */
 .user3-custom{
     height: 150px;
     width: 150px;
@@ -33,75 +43,82 @@
 .checked {
     color: orange;
   }
-  .faq-img{
-      width: 60%;
+
+/* faq area css  */
+.faq-img{
+    width: 60%;
   }
-  .newsletter {
+
+/* newletter+offer area css  */
+.newsletter {
     padding: 80px 0;
     background: #da86192a;
     }
-    
-    .newsletter .content {
+.newsletter .content {
     max-width: 650px;
     margin: 0 auto;
     text-align: center;
     position: relative;
-    z-index: 2; }
-    .newsletter .content h2 {
+    z-index: 2; 
+}
+.newsletter .content h2 {
     color: #243c4f;
-    margin-bottom: 40px; }
-    .newsletter .content .form-control {
+    margin-bottom: 40px; 
+}
+.newsletter .content .form-control {
     height: 50px;
     border-color: #ffffff;
     border-radius:0;
     }
-    .newsletter .content.form-control:focus {
+.newsletter .content.form-control:focus {
     box-shadow: none;
     border: 2px solid #243c4f;
     }
-    .newsletter .content .btn {
+.newsletter .content .btn {
     min-height: 50px; 
     border-radius:0;
     background: #243c4f;
     color: #fff;
     font-weight:600;
     }
-    .perform{
-        background-color: #e76f5118;
-    }
-    footer{
-        background-color: red;
-        color: white;
-    }
-  @media only screen and (max-width: 576px) {
 
-      .header-text{
-          padding:70px 50px;
-          text-align: justify;
-          margin: auto;
-          width: 350px;
+    /* media area css  */
+.perform{
+    background-color: #e76f5118;
+    }
+
+/* footer area css */
+footer{
+    background-color: red;
+    color: white;
+    }
+
+    /*---------
+     Media Queries 
+     --------- */
+  @media only screen and (max-width: 576px) {
+.header-text{
+    padding:70px 50px;
+    text-align: justify;
+    margin: auto;
+    width: 350px;
       }
 .header-img{
-        width: 85%;
-        /* margin: 0 auto; */
-        margin-left: 25px;
-        /* justify-content: center; */
+    width: 85%;
+    margin-left: 25px;
     }
   
-    .feature-text p, .happy-text{
+.feature-text p, .happy-text{
 
-        padding-bottom: 0;
+    padding-bottom: 0;
     }
-    .happy-text{
-        /* overflow-wrap: break-word\\\\\\\\; */
-        display: block;
+.happy-text{
+    display: block;
     }
 
 .bike-margin{
     margin-top: 100px;
     border-color: transparent;
-    /* margin-top: 30px;
-    margin-bottom: 30px; */
 }
 .bike-gray,.bike-color{
     width: 80%;
@@ -109,9 +126,8 @@
 }
 .faq-img{
    
-width: 70%;
-margin: 50px;
-/* padding-left: 100px; */
+    width: 70%;
+    margin: 50px;
 }
 .faq-text{
     margin: 50px;
